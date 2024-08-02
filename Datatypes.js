@@ -1,6 +1,6 @@
 // Number => 2 to power 55
 // bigint => big number
-// String => ""
+// String => "" and ''
 // boolean => true/false
 // null => Standalone value
 // undefined => 
