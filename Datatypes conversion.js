@@ -151,22 +151,22 @@
 // let num1, num2, num3
 // num1 = num2 = num3 = 2+2
 
-let gamecounter = 100
-gamecounter++; (increamnet)
-console.log(gamecounter); // 101
+// let gamecounter = 100
+// gamecounter++; (increamnet)
+// console.log(gamecounter); // 101
 
 
-let gamecount = 100
-gamecount--; 
-console.log(gamecount);
+// let gamecount = 100
+// gamecount--; 
+// console.log(gamecount);
 
 
 
 //** postfix increament */
-let x = 3;
-const y = x++;
+// let x = 3;
+// const y = x++;
 
-console.log(`x:${x}, y:${y}`);
+// console.log(`x:${x}, y:${y}`);
 // Expected output: "x:4, y:3"
 
 //** 2nd */
@@ -174,29 +174,56 @@ console.log(`x:${x}, y:${y}`);
 // const y = x++;
 // x is 4; y is 3
 
-let x2 = 3n;
-const y2 = x2++;
+// let x2 = 3n;
+// const y2 = x2++;
 // x2 is 4n; y2 is 3n
 
 
 
 
 //** prefix increament  */
-let a = 3;
-const b = ++a;
+// let a = 3;
+// const b = ++a;
 
-console.log(`a:${a}, b:${b}`);
+// console.log(`a:${a}, b:${b}`);
 // Expected output: "a:4, b:4"
 
 
 
-let x = 3;
-const y = ++x;
+// let x = 3;
+// const y = ++x;
 // x is 4; y is 4
 
-let x2 = 3n;
-const y2 = ++x2;
+// let x2 = 3n;
+// const y2 = ++x2;
 // x2 is 4n; y2 is 4n
+
+
+//********************************** comparison of datatypes ***********************************************
+
+// console.log(2 > 1); // output :- true
+// console.log(2 >=1); // output :- true
+// console.log(2 < 1); // false
+// console.log(2 == 1); // false
+// console.log(2 != 1); //true
+
+// console.log("2" > 1); // true
+// console.log("02" > 1); //true
+
+
+// console.log(null > 0); // false
+// console.log(null == 0); //false
+// console.log(null >= 0); //true
+
+
+// console.log(undefined > 0 ); // faise
+// console.log(undefined == 0 ); //false
+// console.log(undefined < 0 ); //false
+
+
+console.log("2" == 2); //true
+console.log("2" === 2); //false
+console.log("2" === "2"); //true
 
 
 
