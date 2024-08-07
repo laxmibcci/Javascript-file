@@ -238,29 +238,29 @@
 
 
 // example of stack(Primitive)
-let myyoutubename = "laxmikumarigupta.com"
+// let myyoutubename = "laxmikumarigupta.com"
 
-let anothername = myyoutubename
+// let anothername = myyoutubename
 
-anothername = "codeandtime"
+// anothername = "codeandtime"
 
-console.log(myyoutubename); //laxmikumrigupta.com
-console.log(anothername); // codeandtime
+// console.log(myyoutubename); //laxmikumrigupta.com
+// console.log(anothername); // codeandtime
 
 
 // Example of Heap(Non-Primitive)
 
-// let userone = {
-//     email: "user@google.com",
-//     upi: "user@ybl" 
-// }
+let userone = {
+    email: "user@google.com",
+    upi: "user@ybl" 
+}
 
-// let Usertwo = userone
+let Usertwo = userone
 
-// Usertwo.email = "laxmi@google.com"
+Usertwo.email = "laxmi@google.com"
 
-// console.log(userone. email);
-// console.log(Usertwo. email);
+console.log(userone. email); //laxmi@google.com
+console.log(Usertwo. email); //laxmi@google.com
 
 
 
