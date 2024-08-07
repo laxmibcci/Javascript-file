@@ -199,7 +199,7 @@
 // x2 is 4n; y2 is 4n
 
 
-//********************************** comparison of datatypes ***********************************************
+// ********************************** comparison of datatypes ***********************************************
 
 // console.log(2 > 1); // output :- true
 // console.log(2 >=1); // output :- true
@@ -221,20 +221,46 @@
 // console.log(undefined < 0 ); //false
 
 
-console.log("2" == 2); //true
-console.log("2" === 2); //false
-console.log("2" === "2"); //true
+// console.log("2" == 2); //true
+// console.log("2" === 2); //false
+// console.log("2" === "2"); //true
 
 
 
 
 
 
+// +++++++++++++++++++++++++++++++++++++++++++++ Stack and Heap memory in javascript ++++++++++++++++++++++++++++++++++++++++++++++
 
 
 
+// Stack (Primitive) , Heap (Non-Primitive)
 
 
+// example of stack(Primitive)
+let myyoutubename = "laxmikumarigupta.com"
+
+let anothername = myyoutubename
+
+anothername = "codeandtime"
+
+console.log(myyoutubename); //laxmikumrigupta.com
+console.log(anothername); // codeandtime
+
+
+// Example of Heap(Non-Primitive)
+
+// let userone = {
+//     email: "user@google.com",
+//     upi: "user@ybl" 
+// }
+
+// let Usertwo = userone
+
+// Usertwo.email = "laxmi@google.com"
+
+// console.log(userone. email);
+// console.log(Usertwo. email);
 
 
 
