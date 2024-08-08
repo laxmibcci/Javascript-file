@@ -60,7 +60,7 @@
      }
 
 
-     //how to which datatypes use
+     //how to know which datatypes use
 
      console.log(typeof  Bignumber);
      
