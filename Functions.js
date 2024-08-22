@@ -14,3 +14,18 @@ function printcounting(){
 }
 
 printcounting();
+
+
+/******************** 3rd (parameters ) */
+
+// function PrintNumber(num){
+    // console.log( "Printing Number:" ,num);
+//   }
+PrintNumber(5);
+/****************** (num) = parameters and (5) = arguments */
+
+
+
+
+
+/****************** 4th (multiparameters) */
