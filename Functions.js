@@ -59,11 +59,21 @@
 
 
 //**************** function with number  */
-function getMyName(firstName, lastName){
-    let fullName = firstName +  " "  + lastName;
-    return fullName;
-    }
-    let fullName = getMyName("Laxmi", "7");
-    console.log("fullName: ", fullName);
+// function getMyName(firstName, lastName){
+//     let fullName = firstName +  " "  + lastName;
+//     return fullName;
+//     }
+//     let fullName = getMyName("Laxmi", "7");
+//     console.log("fullName: ", fullName);
     
 
+
+//******************** function with integers */
+
+function getMyName(firstName, lastName){
+    let fullname = firstName  + "  " + lastName;
+    return fullname;
+}
+
+let fullname = getMyName("7","7");
+console.log("fullname:", fullname);
