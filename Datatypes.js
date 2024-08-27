@@ -18,7 +18,7 @@
 // console.log(typeof null); // object
   
 
-// new line about datatypes
+//************************************************************* */ new line about datatypes
 
 // Two types of datatypes:-
 // 1. primitive
@@ -33,7 +33,7 @@
 // c. Bigint:-
 
 //  const Bignumber = 8842874683748247647637n
-// d. Boolean:-
+// d. Boolean:- true & false
 // e. null:- const outsidetemp = null
 // f. undefined:- let useremail;
 // g. Symbol:-  
@@ -51,6 +51,8 @@
         name: "laxmi",
         age: 22,
       }
+
+      
     
 
 // c. function
