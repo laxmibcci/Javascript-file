@@ -122,16 +122,94 @@ because of issue in block scope and functional scope
 // console.log(fullName); // puja
 
 
-const student = {
-    fullname : "lamxi kumari",
-    address : "ranchi",
-    age : 22,
-    cgpa : 7.8,
-};
+// const student = {
+//     fullname : "lamxi kumari",
+//     address : "ranchi",
+//     age : 22,
+//     cgpa : 7.8,
+// };
 
-console.log(student);
+// console.log(student);
 
 
 // change of student objects
 
-student["age"] = student["age"] + 1
+// student["age"] = student["age"] + 1
+
+
+
+
+
+//***************************** operator */
+
+//****************** arithmetic operator */
+// let a = 5;
+// let b = 2;
+
+// console.log("a = ", a, " & b = ", b);
+// console.log("a + b = ", a + b);
+// console.log("a - b = ", a - b);
+// console.log("a * b = ", a * b);
+// console.log("a / b = ", a / b);
+// console.log("a % b = ", a % b);
+// console.log("a ** b = ", a ** b);
+
+let a = 5;
+let b = 2;
+
+console.log("a = ", a, " & b = ", b);  // a = 5 & b = 2
+
+//*********** pre increament */
+// console.log("++a = ", ++a); // ++a = 6
+// console.log("a =", a); // a = 6
+
+//*********** post increament */
+// console.log("a++ = ", a++); // a++ = 5
+// console.log("a =", a);    // a = 6
+
+
+//************** pre decreament */
+// console.log("--a = ", --a); // --a = 4
+// console.log("a = ", a);     //  a = 4
+
+
+
+//*************** post increament */
+console.log("a-- = ", a--); // a-- = 5
+console.log("a =", a);     // a =4
+
+
+//*********************** Assignment operators ***********************/
+// let a = 5;
+// let b =2;
+// a += 4 // a = a+4
+// console.log("a = ", a); // a =9
+
+// let a = 5;
+// let b =2;
+// a -= 4 // a = a-4
+// console.log("a = ", a); // a = 1
+
+// let a = 5;
+// let b =2;
+// a *= 4 // a = a*4
+// console.log("a = ", a); // a =20
+
+
+// let a = 20;
+// let b =2;
+// a /= 4 // a = a/4 
+// console.log("a = ", a);  // a = 5
+
+
+// let a = 10;
+// let b =2;
+// a %= 4 // a = a%4
+// console.log("a = ", a);  // a =2 
+
+// let a = 5;
+// let b =2;
+// a **= 4 // a = a**4
+// console.log("a = ", a); // a = 625
+
+

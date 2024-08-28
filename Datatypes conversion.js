@@ -199,6 +199,215 @@
 // x2 is 4n; y2 is 4n
 
 
+
+
+
+//****************** arithmetic operator ***********************************/
+// let a = 5;
+// let b = 2;
+
+// console.log("a = ", a, " & b = ", b);
+// console.log("a + b = ", a + b);
+// console.log("a - b = ", a - b);
+// console.log("a * b = ", a * b);
+// console.log("a / b = ", a / b);
+// console.log("a % b = ", a % b);
+// console.log("a ** b = ", a ** b);
+
+//*********************************  unary operator  ******************************************* */
+
+// let a = 5;
+// let b = 2;
+
+// console.log("a = ", a, " & b = ", b);  // a = 5 & b = 2
+
+//*********** pre increament */
+// console.log("++a = ", ++a); // ++a = 6
+// console.log("a =", a); // a = 6
+
+//*********** post increament */
+// console.log("a++ = ", a++); // a++ = 5
+// console.log("a =", a);    // a = 6
+
+
+//************** pre decreament */
+// console.log("--a = ", --a); // --a = 4
+// console.log("a = ", a);     //  a = 4
+
+
+
+//*************** post increament */
+// console.log("a-- = ", a--); // a-- = 5
+// console.log("a = ", a);     // a =4
+
+
+//*********************** Assignment operators ***********************/
+// let a = 5;
+// let b =2;
+// a += 4 // a = a+4
+// console.log("a = ", a); // a =9
+
+// let a = 5;
+// let b =2;
+// a -= 4 // a = a-4
+// console.log("a = ", a); // a = 1
+
+// let a = 5;
+// let b =2;
+// a *= 4 // a = a*4
+// console.log("a = ", a); // a =20
+
+
+// let a = 20;
+// let b =2;
+// a /= 4 // a = a/4 
+// console.log("a = ", a);  // a = 5
+
+
+// let a = 10;
+// let b =2;
+// a %= 4 // a = a%4
+// console.log("a = ", a);  // a =2 
+
+// let a = 5;
+// let b =2;
+// a **= 4 // a = a**4
+// console.log("a = ", a); // a = 625
+
+//********************* comparison operators ******************/
+
+// let a = 5;
+// let b = 2;
+
+// console.log("a == b", a == b); // false
+
+// let a = 5;
+// let b = 5;
+// console.log("a == b", a == b); // True
+
+// let a = "5";
+// let b = 5;
+// console.log("a == b", a == b); // true // datatypes is not compulsory for same but value is always same
+
+// let a = "5";
+// let b = 2;
+// console.log("a === b", a === b); // false 
+
+//  let a = 5;
+//  let b = 5;
+//  console.log("a === b", a === b);  // true
+
+// let a = "5";
+// let b = 5;
+// console.log("5" === "5", a === b);  // false // datatypes and value is compulsory same
+
+//*********** not equal */
+// let a = 5;
+// let b = 5;
+// console.log("5 != 5", a !=b);  // false
+
+
+// let a = 5;
+// let b = 2;
+// console.log("5 != 2", a !=b);  // true
+
+// let a = "5";
+// let b = 5;
+// console.log("a != b", a != b); // false
+
+
+//********** not eaual value or not equal datatypes */
+
+// let a = 5;
+// let b = 5;
+// console.log("5 !== 5", a !== b); // false
+
+// let a = 5;
+// let b = 2;
+// console.log("5 !== 2", a !== b); // true
+
+// let a = "5";
+// let b = 5;
+// console.log("a !== b", a !== b); // true
+
+
+//******* greater than *****/
+// let a = 7;
+// let b = 5;
+// console.log("a > b", a > b); // true
+
+//******** less than ******/
+// let a = 7;
+// let b = 5;
+// console.log("a < b", a < b); // false
+
+
+//***** greater than or equal to *****/
+// let a = 7;
+// let b = 5;
+// console.log("a >= b", a >= b); //  true
+
+// let a = 6;
+// let b = 5;
+// console.log("a >= b", a >= b); // true
+
+//****** less than or equal to  */
+// let a = 7;
+// let b = 5;
+// console.log("a <= b", a <= b); // false
+
+// let a = 5;
+// let b = 5;
+// console.log("a <= b", a <= b);
+
+
+//*************** logical operator **********/
+
+// logical AND (all true will be true otherwise false)
+// let a = 6;
+// let b = 5;
+// let cond1 = a > b; //true
+// let cond2 = a === 6; // true
+// console.log("cond1 && cond2", cond1 && cond2); // true
+
+
+// let a = 6;
+// let b = 5;
+// let cond1 = a > b; //true
+// let cond2 = a === 5; // true
+// console.log("cond1 && cond2", a > b && a === 5); // false
+
+
+
+
+//logical or ||(all false will be false otherwise true)
+// let a = 6;
+// let b = 5;
+// console.log("cond1 || cond2", a > b || a === 5); // true
+
+// let a = 6;
+// let b = 5;
+// console.log("cond1 || cond2", a > b || a === 6); // true
+
+// let a = 6;
+// let b = 5;
+// console.log("cond1 || cond2", a < b || a === 5); // false
+
+
+// **** !(not) *****(true = false, false = true)
+
+// let a = 6;
+// let b = 5;
+// console.log( !(a === 6)); // false 
+
+let a = 6;
+let b = 5;
+console.log(!(a < 5)); // true
+
+
+
+
+
 // ********************************** comparison of datatypes ***********************************************
 
 // console.log(2 > 1); // output :- true
@@ -250,17 +459,17 @@
 
 // Example of Heap(Non-Primitive)
 
-let userone = {
-    email: "user@google.com",
-    upi: "user@ybl" 
-}
+// let userone = {
+//     email: "user@google.com",
+//     upi: "user@ybl" 
+// }
 
-let Usertwo = userone
+// let Usertwo = userone
 
-Usertwo.email = "laxmi@google.com"
+// Usertwo.email = "laxmi@google.com"
 
-console.log(userone. email); //laxmi@google.com
-console.log(Usertwo. email); //laxmi@google.com
+// console.log(userone. email); //laxmi@google.com
+// console.log(Usertwo. email); //laxmi@google.com
 
 
 

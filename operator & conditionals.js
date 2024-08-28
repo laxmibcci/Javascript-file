@@ -1,9 +1,19 @@
 // console.log("laxmi")
 
 
-//** Arithmetic operator **//
-// let a = 2;
-// let b = 5;
+//******************************** Arithmetic operator *****************************//
+
+// let a = 5;
+// let b = 2;
+
+// console.log("a = ", a, " & b = ", b); // a = 5 & b = 2
+
+// console.log("a + b = ", a + b);    // a + b = 7
+// console.log("a - b = ", a - b);    // a - b = 3
+// console.log("a * b = ", a * b);    // a * b = 10
+// console.log("a / b = ", a / b);    // a / b = 2.5
+// console.log("a % b = ", a % b);    // a % b = 1
+// console.log("a ** b = ", a ** b);  // a ** b = 25
 
 // console.log(a+b);
 
@@ -17,13 +27,39 @@
 
 // console.log(a**b);
 
-let a = 2;
-let b = 5;
- 
 
-//** Assignment & comparison operator  **//
+//*********************************** Unary Operator ******************************/
+
+// let a = 5;
+// let b = 2;
+
+// console.log("a = ", a, " & b = ", b);  // a = 5 & b = 2
+
+//*********** pre increament */
+// console.log("++a = ", ++a); // ++a = 6
+// console.log("a =", a); // a = 6
+
+//*********** post increament */
+// console.log("a++ = ", a++); // a++ = 5
+// console.log("a =", a);    // a = 6
 
 
+//************** pre decreament */
+// console.log("--a = ", --a); // --a = 4
+// console.log("a = ", a);     //  a = 4
+
+
+
+//*************** post decreament */
+// console.log("a-- = ", a--); // a-- = 5
+// console.log("a =", a);     // a =4
+
+
+
+ //** Assignment & comparison operator  **//
+
+// let a = 2;
+// let b = 5;
 // a = a +10;
 // a +=10;
 // console.log(a);
@@ -43,7 +79,175 @@ let b = 5;
 
 // console.log('5' !== 3);
 // console.log(5 !== '3');
+
+//*********************** 2. Assignment operators ***********************/
+// let a = 5;
+// let b =2;
+// a += 4 // a = a+4
+// console.log("a = ", a); // a =9
+
+// let a = 5;
+// let b =2;
+// a -= 4 // a = a-4
+// console.log("a = ", a); // a = 1
+
+// let a = 5;
+// let b =2;
+// a *= 4 // a = a*4
+// console.log("a = ", a); // a =20
+
+
+// let a = 20;
+// let b =2;
+// a /= 4 // a = a/4 
+// console.log("a = ", a);  // a = 5
+
+
+// let a = 10;
+// let b =2;
+// a %= 4 // a = a%4
+// console.log("a = ", a);  // a =2 
+
+// let a = 5;
+// let b =2;
+// a **= 4 // a = a**4
+// console.log("a = ", a); // a = 625
+
+
+//********************* comparison operators ******************/
+ //******* equal to value */
+// let a = 5;
+// let b = 2;
+
+// console.log("5 == 2", a == b); // false
+
+// let a = 5;
+// let b = 5;
+// console.log("5 == 5", a == b); // True
+
+// let a = "5";
+// let b = 5;
+// console.log(""5" == 5", a == b); // true // datatypes is not compulsory for same but value is always same
+
+
+//********** equal value and equal type */
+// let a = 5;
+// let b = 2;
+// console.log("5 === 2", a === b); // false 
+
+//  let a = 5;
+//  let b = 5;
+//  console.log("5 === 5", a === b);  // true
+
+// let a = "5";
+// let b = 5;
+// console.log("a === b", a === b);  // false // datatypes and value is compulsory same
+
+
+//*********** not equal */
+// let a = 5;
+// let b = 5;
+// console.log("5 != 5", a !=b);  // false
+
+
+// let a = 5;
+// let b = 2;
+// console.log("5 != 2", a !=b);  // true
+
+// let a = "5";
+// let b = 5;
+// console.log("a != b", a != b); // false
+
+
+//********** not eaual value or not equal datatypes */
+
+// let a = 5;
+// let b = 5;
+// console.log("5 !== 5", a !== b); // false
+
+// let a = 5;
+// let b = 2;
+// console.log("5 !== 2", a !== b); // true
+
+// let a = "5";
+// let b = 5;
+// console.log("a !== b", a !== b); // true
  
+//******* greater than *****/
+// let a = 7;
+// let b = 5;
+// console.log("a > b", a > b); // true
+
+//******** less than ******/
+// let a = 7;
+// let b = 5;
+// console.log("a < b", a < b); // false
+
+
+//***** greater than or equal to *****/
+// let a = 7;
+// let b = 5;
+// console.log("a >= b", a >= b); //  true
+
+// let a = 5;
+// let b = 5;
+// console.log("a >= b", a >= b); //  true
+
+
+
+//****** less than or equal to  */
+// let a = 7;
+// let b = 5;
+// console.log("a <= b", a <= b); // false
+
+// let a = 5;
+// let b = 5;
+// console.log("a <= b", a <= b);  //true
+
+//*************** logical operator **********/
+
+// logical AND (all true will be true otherwise false)
+// let a = 6;
+// let b = 5;
+// let cond1 = a > b; //true
+// let cond2 = a === 6; // true
+// console.log("cond1 && cond2", cond1 && cond2); // true
+
+
+// let a = 6;
+// let b = 5;
+// let cond1 = a > b; //true
+// let cond2 = a === 5; // true
+// console.log("cond1 && cond2", a > b && a === 5); // false
+
+
+
+
+//logical or ||(all false will be false otherwise true)
+// let a = 6;
+// let b = 5;
+// console.log("cond1 || cond2", a > b || a === 5); // true
+
+// let a = 6;
+// let b = 5;
+// console.log("cond1 || cond2", a > b || a === 6); // true
+
+// let a = 6;
+// let b = 5;
+// console.log("cond1 || cond2", a < b || a === 5); // false
+
+
+// **** !(not) *****(true = false, false = true)
+
+// let a = 6;
+// let b = 5;
+// console.log( !(a === 6)); // false 
+
+let a = 6;
+let b = 5;
+console.log(!(a < 5)); // true
+
+
 
 
 
@@ -128,16 +332,24 @@ let b = 5;
 
 //** switch number **//
 
-let num =3;
-switch(num) {
-    case 1 : console.log('A');
-    break;
-    case 2 : console.log('B');
-    break;
-    case 3 : console.log('C');
-    break;
-    case 4 : console.log('D');
-    break;
-    default : console.log('F');
-}
+// let num =3;
+// switch(num) {
+//     case 1 : console.log('A');
+//     break;
+//     case 2 : console.log('B');
+//     break;
+//     case 3 : console.log('C');
+//     break;
+//     case 4 : console.log('D');
+//     break;
+//     default : console.log('F');
+// }
 
+
+
+// let fullname = "laxmi"
+// console.log(fullname);
+
+
+// let a = 5;
+// let b = 2;
