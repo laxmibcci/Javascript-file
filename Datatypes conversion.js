@@ -400,9 +400,107 @@
 // let b = 5;
 // console.log( !(a === 6)); // false 
 
-let a = 6;
-let b = 5;
-console.log(!(a < 5)); // true
+// let a = 6;
+// let b = 5;
+// console.log(!(a < 5)); // true
+
+
+//*************** conditional */
+// let mode = "dark";
+// let color;
+// if(mode === "dark"){
+//     color = "black";
+// }
+// if(mode === "light"){
+//     color = "white";
+// }
+// console.log(color); // black
+
+
+// let mode = "light";
+// let color;
+// if(mode === "dark"){
+//     color = "black";
+// }
+// if(mode === "light"){
+//     color = "white";
+// }
+// console.log(color); //white
+
+
+
+// let age = "16";
+// if(age >= 18){
+//    console.log("you can't vote"); 
+// }
+// if(age < 18){
+//    console.log("you can vote");  // you can vote
+// }
+
+
+// let mode = "blue";
+// let color;
+// if(mode === "dark"){
+//     color = "black";
+//     } else {
+//         color = "white";
+//     }
+//  console.log(color); //white
+
+
+// let age = "16";
+// if(age >= 18){
+//     console.log("you can't vote");
+// } 
+// if(age < 10){
+//     console.log("you can vote");
+// }
+// else {
+//     console.log(" vote"); // vote
+// }
+
+// let num = 10;
+// if(num%2 === 0){
+//     console.log(num, "is even");
+// } else {
+//     console.log(num, "is odd"); // 10 is even
+// }
+
+// let num = 5;
+// if(num%2 === 0){
+//     console.log(num, "is even");
+// } else {
+//     console.log(num, "is odd"); // 5 is odd
+// }
+
+
+let age = 50;
+if(age < 18){
+    console.log("junior");
+}  else if (age > 30){
+    console.log("senior");
+} else{
+    console.log("middle"); // senior
+}
+
+
+let mode = "blue";
+let color;
+
+if(mode === "dark"){
+    color = "black";
+} else if (mode === "light"){
+    color = "white";
+} else if(mode === "blue"){
+    color = "blue";
+} else{
+    color = "pink";
+}
+
+console.log(color); // blue
+
+
+
 
 
 
@@ -471,6 +569,8 @@ console.log(!(a < 5)); // true
 // console.log(userone. email); //laxmi@google.com
 // console.log(Usertwo. email); //laxmi@google.com
 
+
+// console.log(["] == ");
 
 
 
