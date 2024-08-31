@@ -502,10 +502,56 @@
 
 //****************************************** Ternary Operators *********************/
 // conditions ? true output : false output
-let age = 20;
- let result = age > 18 ? "adult":"not adult"
- console.log(result);
+// let age = 20;
+//  let result = age > 18 ? "adult":"not adult"
+//  console.log(result);
 
+
+
+ //********************** switch ************/
+//  const action = "say_hello";
+// switch (action) {
+//   case "say_hello":
+//     const message = "hello";
+//     console.log(message);
+//     break;
+//   case "say_hi":
+//     const messages = "hi";
+//     console.log(messages);
+//     break;
+//   default:
+//     console.log("Empty action received.");
+// }
+
+// const expr = 'Papayas';
+// switch (expr) {
+//   case 'Oranges':
+//     console.log('Oranges are $0.59 a pound.');
+//     break;
+//   case 'Mangoes':
+//   case 'Papayas':
+//     console.log('Mangoes and papayas are $2.79 a pound.');
+//     // Expected output: "Mangoes and papayas are $2.79 a pound."
+//     break;
+//   default:
+//     console.log(`Sorry, we are out of ${expr}.`);
+// }
+
+
+
+
+// const fruit = "apple";
+// switch (fruit) {
+//     case "banana":
+//     console.log("banana is  also include veg.");
+//     break;
+//      case "apple":
+//     console.log("apple is fruit.");
+//     break;
+//     default:
+//         console.log("sorry, we are out of ${fruit}.");
+// }
+ 
 
 
 
@@ -581,6 +627,6 @@ let age = 20;
 
 
 
-
+alert("hello moto")
 
 
