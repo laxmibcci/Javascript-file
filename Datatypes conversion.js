@@ -500,6 +500,47 @@
 // console.log(color); // blue
 
 
+
+//*********************************practise 1 ***********//
+
+// alert("hello moto"); // one time
+
+// let name = prompt("how are you");
+// console.log(name); // many times
+
+
+
+// let num = prompt("enter a number:");
+// if(num % 5 === 0){
+//     console.log(num, "is multiple of 5");
+// } else{
+//     console.log(num, "is NOT multiple of 5");
+// }
+
+//************************* practice 2 *************//
+let score = prompt("enter ypur score (0-100):");
+let grade;
+if(score >= 80 && score <= 100){
+    grade = "A";
+} else if (score >= 70 && score <= 89){
+    grade = "B";
+} else if (score >= 60 && score <= 69){
+    grade = "C";
+} else if(score >= 50 && score <= 59){
+    grade = "D";
+} else if (score >= 0 && score <= 49){
+    grade= "fail"; 
+} 
+
+console.log("according to your score, your grade was:", grade);
+
+
+
+
+
+
+
+
 //****************************************** Ternary Operators *********************/
 // conditions ? true output : false output
 // let age = 20;
@@ -625,8 +666,5 @@
 
 // console.log(["] == ");
 
-
-
-alert("hello moto")
 
 
