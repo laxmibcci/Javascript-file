@@ -569,8 +569,8 @@ console.log("according to your score, your grade was:", grade);
 
 
 
-// let fullname = "laxmi"
-// console.log(fullname);
+let fullname = "laxmi"
+console.log(fullname);
 
 
 // let a = 5;

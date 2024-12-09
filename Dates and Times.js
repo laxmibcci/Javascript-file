@@ -32,6 +32,15 @@ let myTimeStamp = Date.now()
 
 
 let newDate = new Date()
-console.log(newDate); // 2024-11-15T10
-console.log(newDate.getMonth()); //10
-console.log(newDate.getDay());  //5
+// console.log(newDate); // 2024-11-15T10
+// console.log(newDate.getMonth() + 1); //10
+// console.log(newDate.getDay());  //5
+
+`${newDate.getday()}`
+
+
+newDate.toLocaleString('default', {
+    weekday: "long",
+
+})
+
