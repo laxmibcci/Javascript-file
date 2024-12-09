@@ -3,9 +3,15 @@
 // function sayMyName() {
 //     console.log("laxmi Kumari")
 // }
-
-//function use - function call
 // sayMyName();
+
+// function fullname(){
+//     console.log("gupta");
+    
+// }
+// fullname()
+//function use - function call
+// sayMyName(); // laxmi kumari
 
 
 
@@ -18,6 +24,16 @@
 
 // printcounting();
 
+/************************2nd***************/
+// function printing(){
+//     for(let i=1; i<=5; i++ ) {
+//         console.log(i);
+        
+//     }
+//     }
+
+// printing();
+
 
 /******************** 3rd ( function with single parameters ) */
 
@@ -27,7 +43,12 @@
 // PrintNumber(5);
 /****************** (num) = parameters and (5) = arguments */
 
+// function printnumber(number){
+//     console.log("print Number:" ,number);
+    
+// }
 
+// printnumber(5)
 
 
 
@@ -39,6 +60,13 @@
     // }
 // getAverage(3,70)
 
+// function getAverage(num1,num2){
+//     let avg = (num1+num2)/3
+//     console.log("getAverage:" ,avg);
+    
+// }
+// getAverage(3,70)
+
 /********************* Return Function */
 // function getsum(a,b,c) {
 //     let sum = a + b + c;
@@ -46,6 +74,14 @@
 // }
 // let ans = getsum(1,2,3);
 // console.log(" getsum:", ans);
+
+// function sum(a,b,c) {
+//     let sum = a+b+c;
+//     return sum;
+// }
+// let ans = sum(1,2,3);
+// console.log("sum:", ans); // 6
+
 
 
 //****** 2nd */
@@ -67,6 +103,14 @@
 //     console.log("fullName: ", fullName);
     
 
+// function getname(firstname, lastnumber){
+//     let fullname = firstname + "" + lastnumber;
+//     return fullname;
+// }
+//  let fullname = getname(9 , "laxmi");
+//  console.log("fullname:" ,fullname);    //9laxmi
+ 
+
 
 //******************** function with integers */
 
@@ -76,7 +120,17 @@
 // }
 
 // let fullname = getMyName("7","7");
-// console.log("fullname:", fullname);
+// console.log("fullname:", fullname); // 7 7
+
+// function getmysum(firstName, lastName){
+//     let sum = firstName + lastName;
+//     return sum;
+
+// }
+
+// let sum = getmysum(5, 6);
+// console.log("getmysum:" ,sum); // 6
+
 
 
 
@@ -86,10 +140,19 @@
 //     is called define
 // }
 
-function greet(name) {
-    return `Hello, ${name}!`;
+// function greet(name) {
+//     return `Hello, ${name}!`;
+// }
+// console.log(greet("John")); // Output: Hello, John!
+
+let squarenumber = function(num){
+    let ans = num**2;
+    return ans;
 }
-console.log(greet("John")); // Output: Hello, John!
+let ans = squarenumber(5);
+console.log(ans); //25
+
+
 
 
 
@@ -97,10 +160,12 @@ console.log(greet("John")); // Output: Hello, John!
 
 //*********************************** function expression */
 
-const greet = function(name) {
-    return `Hello, ${name}!`;
-};
-console.log(greet("John")); // Output: Hello, John!
+// const greet = function(name) {
+//     return `Hello, ${name}!`;
+// };
+// console.log(greet("John")); // Output: Hello, John!
+
+
 
 
 
@@ -108,34 +173,41 @@ console.log(greet("John")); // Output: Hello, John!
 
 //***************************** Arrow function */
 
-const greet = (name) => {
-    return `Hello, ${name}!`;
-};
-console.log(greet("John")); // Output: Hello, John!
+// const greet = (name) => {
+//     return `Hello, ${name}!`;
+// };
+// console.log(greet("John")); // Output: Hello, John!
+
+let getExp = (x,y) => {
+    let ans = x**y;
+    return ans;
+}
+console.log(getExp(2,5)); //32
+
 
 
 //******************** callback function */
 
-function fetchData(callback) {
-    // Simulated asynchronous operation
-    setTimeout(() => {
-        const data = "Data fetched successfully";
-        callback(data);
-    }, 2000);
-}
+// function fetchData(callback) {
+//     // Simulated asynchronous operation
+//     setTimeout(() => {
+//         const data = "Data fetched successfully";
+//         callback(data);
+//     }, 2000);
+// }
 
-function processData(data) {
-    console.log(`Processing data: ${data}`);
-}
+// function processData(data) {
+//     console.log(`Processing data: ${data}`);
+// }
 
-fetchData(processData); // Output: Processing data: Data fetched successfully
+// fetchData(processData); // Output: Processing data: Data fetched successfully
 
-function sumOfSquaresOfOddNumbers(arr) {
-    let sum = 0;
-    for (let i = 0; i < arr.length; i++) {
-        if (arr[i] % 2 !== 0) {
-            sum += arr[i] * arr[i];
-        }
-    }
-    return sum;
-}
+// function sumOfSquaresOfOddNumbers(arr) {
+//     let sum = 0;
+//     for (let i = 0; i < arr.length; i++) {
+//         if (arr[i] % 2 !== 0) {
+//             sum += arr[i] * arr[i];
+//         }
+//     }
+//     return sum;
+// }
